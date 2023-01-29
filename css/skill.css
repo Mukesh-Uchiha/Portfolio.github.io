@@ -1,0 +1,339 @@
+#skills-Header {
+  margin-left: 159px;
+  width: 75%;
+  left: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.desc-skills {
+  margin-top: 30px;
+  color: #222831;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.container {
+  margin: auto;
+  display: flex;
+  height: 100vh;
+  font-weight: 800;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+body {
+}
+
+h1 {
+  color: #222831;
+  text-align: center;
+}
+
+.skills-bar-container {
+  position: relative;
+  width: 40%;
+  min-width: 350px;
+  margin: 5% auto;
+  list-style: none;
+}
+
+.skills-bar-container li {
+  background: #222831;
+  position: relative;
+  width: 100%;
+  height: 3px;
+  margin-bottom: 35px;
+  margin-top: 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.skills-bar-container label {
+  color: #222831;
+  position: relative;
+  margin-left: 0px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.progressbar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+#progress-htmlcss {
+  -webkit-animation-name: progress-htmlcss;
+  animation-name: progress-htmlcss;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+#progress-jsjq {
+  -webkit-animation-name: progress-jsjq;
+  animation-name: progress-jsjq;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+#progress-React {
+  -webkit-animation-name: progress-React;
+  animation-name: progress-React;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+
+#progress-Python {
+  -webkit-animation-name: progress-Python;
+  animation-name: progress-Python;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+#progress-cpp {
+  -webkit-animation-name: progress-cpp;
+  animation-name: progress-cpp;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+#progress-sql {
+  -webkit-animation-name: progress-sql;
+  animation-name: progress-sql;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+#progress-Ui {
+  -webkit-animation-name: progress-Ui;
+  animation-name: progress-Ui;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+#progress-tw {
+  -webkit-animation-name: progress-tw;
+  animation-name: progress-tw;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+#progress-create {
+  -webkit-animation-name: progress-create;
+  animation-name: progress-create;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+
+.progressblue {
+  background-color: #00adb5;
+}
+
+@-webkit-keyframes progress-htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes progress-jsjq {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@-webkit-keyframes progress-React {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25%;
+  }
+}
+
+@-webkit-keyframes progress-Python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@-webkit-keyframes progress-cpp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@-webkit-keyframes progress-sql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@-moz-keyframes progress-htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-moz-keyframes progress-jsjq {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@-moz-keyframes progress-React {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25%;
+  }
+}
+
+@-moz-keyframes progress-Python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@-moz-keyframes progress-csharp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@-moz-keyframes progress-sql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes progress-htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress-jsjq {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes progress-React {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25%;
+  }
+}
+
+@keyframes progress-Python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes progress-cpp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes progress-sql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes progress-Ui {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 93%;
+  }
+}
+
+@keyframes progress-tw {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes progress-create {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.Head2 {
+  color: #00adb5;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#footer {
+  text-align: center;
+}

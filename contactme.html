@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contactme.css" />
+    <link rel="stylesheet" href="css/gohomeleft.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form
+        id="contact"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="71254d6b-00a9-46b9-81cf-41733f2f9d04"
+        />
+        <input
+          type="hidden"
+          name="apikey"
+          value="71254d6b-00a9-46b9-81cf-41733f2f9d04"
+        />
+        <h3>Quick Contact</h3>
+        <h4>Contact us today, and get reply with in 24 hours!</h4>
+        <fieldset>
+          <input
+            name="name"
+            placeholder="Your name"
+            type="text"
+            tabindex="1"
+            id="name"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            name="email"
+            placeholder="Your Email Address"
+            type="email"
+            id="email"
+            tabindex="2"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            name="phoneno"
+            placeholder="Your Phone Number"
+            type="tel"
+            id="phone"
+            tabindex="3"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Subject"
+            type="text"
+            tabindex="4"
+            id="subject"
+            name="subject"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <textarea
+            name="message"
+            placeholder="Type your Message Here...."
+            tabindex="5"
+            id="message"
+            required
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <input
+            type="hidden"
+            name="redirect"
+            value="https://web3forms.com/success"
+          />
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Submit
+          </button>
+        </fieldset>
+        <p class="text-base text-center text-gray-400" id="result"></p>
+      </form>
+    </div>
+    <div style="
+    width: 10px;
+">
+      <span class="goHome" onclick="setTimeout(function () {
+        window.location.href = 'Homepage.html';}, 1000);">
+          <i style="text-align: right" class="fa fa-home" aria-hidden="true"></i
+        ></a>
+      </span>
+      <div class="movePages">
+        <h1 class="mask" data-text="PULL TO GO HOME">Pull To Go Home</h1>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/a010f61de2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script/contactme.js"></script>
+    <script src="script/gohomeleft.js"></script>
+  </body>
+</html>
