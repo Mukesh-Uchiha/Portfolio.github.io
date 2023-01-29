@@ -1,29 +1,4 @@
-body {
-  background: rgb(233, 233, 233);
-  background: linear-gradient(
-    90deg,
-    rgba(233, 233, 233, 1) 1%,
-    rgba(255, 255, 255, 1) 5%,
-    rgba(233, 233, 233, 1) 13%
-  );
 
-  background-size: 400% 400%;
-  height: 100vh;
-
-  animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 #Circle {
   background-image: url("../images/circle.png");
   background-color: #222831;
