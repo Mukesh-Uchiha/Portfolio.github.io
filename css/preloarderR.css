@@ -1,0 +1,82 @@
+#preloader {
+  background: black url("../images/gif2.gif") no-repeat center center;
+  top: 0;
+  left: 0;
+  height: 150vh;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1000;
+  background-size: 15%;
+  background-position-y: 20%;
+  background-position-x: 50%;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+#ground {
+  position: fixed;
+  top: 37%;
+  left: 37%;
+}
+
+.marquee {
+  height: 80px;
+  width: 420px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 5px solid rgb(43, 255, 0);
+}
+
+.marquee div {
+  margin-top: 12px;
+
+  display: block;
+  width: 200%;
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 1.5s linear infinite;
+}
+svg {
+  fill: rgb(43, 255, 0);
+  width: 400px;
+  animation: skew 5s linear infinite;
+  transform: skew;
+  animation-direction: alternate;
+}
+.marquee span {
+  float: left;
+  width: 50%;
+}
+@keyframes skew {
+  0% {
+    transform: skewX(13deg) translate(-7px);
+  }
+  100% {
+    transform: skewX(-13deg) translate(7px);
+  }
+}
+@keyframes marquee {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
