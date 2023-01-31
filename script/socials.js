@@ -17,12 +17,12 @@ $(document).ready(function () {
 
   $(".card").mouseenter(function (e) {
     (x = e.pageX - $(this).offset().left),
-      (y = e.pageX - $(this).offset().top),
+      (y = e.pageY - $(this).offset().top),
       $(this).find("span").css({ top: y, left: x });
   });
   $(".card").mouseout(function (e) {
     (x = e.pageX - $(this).offset().left),
-      (y = e.pageX - $(this).offset().top),
+      (y = e.pageY - $(this).offset().top),
       $(this).find("span").css({ top: y, left: x });
   });
 });
