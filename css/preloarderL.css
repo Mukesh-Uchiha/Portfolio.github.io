@@ -1,5 +1,5 @@
 #preloader {
-  background: black url("/images/gif1.gif") no-repeat center center;
+  background: black url("../images/gif1.gif") no-repeat center center;
   top: 0;
   left: 0;
   height: 150vh;
