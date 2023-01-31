@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
+#nomobile {
+  background: black;
+  top: 0;
+  left: 0;
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1000;
+  background-size: 15%;
+  background-position-y: 20%;
+  background-position-x: 50%;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+#nomobile img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin: -245px 0 0 -246px;
+  width: 140px;
+}
+#nomobile h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  font-size: xxx-large;
+  top: 50%;
+  left: 50%;
+  margin: -293px 0 0 -6px;
+  width: 140px;
+  opacity: 0.75;
+}
+.quota {
+  display: block;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 100px;
+  height: 84px;
+}
+@media (max-width: 320px) {
+  #nomobile {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  #nomobile {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  #nomobile {
+    display: block;
+  }
+}
+@media (max-width: 801px) {
+  #nomobile {
+    display: block;
+  }
+}
+@media (max-width: 1025px) {
+  #nomobile {
+    display: block;
+  }
+}
