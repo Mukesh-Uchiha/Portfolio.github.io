@@ -13,9 +13,6 @@
   background-size: 15%;
   background-position-y: 20%;
   background-position-x: 50%;
-  animation: fadeInAnimation ease 5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 #nomobile img {
   position: relative;
