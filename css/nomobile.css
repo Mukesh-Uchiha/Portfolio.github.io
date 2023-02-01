@@ -19,13 +19,13 @@
   top: 50%;
   left: 50%;
   margin: -245px 0 0 -246px;
-  width: 140px;
+  width: 400px;
 }
 #nomobile h2 {
   color: white;
   font-family: "Raleway", sans-serif;
   position: relative;
-  font-size: xxx-large;
+  font-size: 4rem;
   top: 50%;
   left: 50%;
   margin: -293px 0 0 -6px;
@@ -41,25 +41,40 @@
 @media (max-width: 320px) {
   #nomobile {
     display: block;
+  }  
+  #preloader {
+    display: block;
   }
 }
 @media (max-width: 480px) {
   #nomobile {
     display: block;
   }
+  #preloader {
+    display: block;
+  }
 }
 @media (max-width: 600px) {
   #nomobile {
     display: block;
-  }
+  }  
+  #preloader {
+    display: block;
+  } 
 }
 @media (max-width: 801px) {
   #nomobile {
+    display: block;
+  }  
+  #preloader {
     display: block;
   }
 }
 @media (max-width: 1025px) {
   #nomobile {
+    display: block;
+  }  
+  #preloader {
     display: block;
   }
 }
