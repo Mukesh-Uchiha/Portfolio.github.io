@@ -78,3 +78,37 @@
     display: block;
   }
 }
+
+
+@media (min-width: 320px) {
+
+  #preloader {
+    display: block;
+  }
+}
+@media (min-width: 480px) {
+
+  #preloader {
+    display: block;
+  }
+}
+@media (min-width: 600px) {
+  
+  #preloader {
+    display: block;
+  } 
+}
+@media (min-width: 801px) {
+  #nomobile {
+    display: block;
+  }  
+  #preloader {
+    display: block;
+  }
+}
+@media (max-width: 1025px) {
+ 
+  #preloader {
+    display: block;
+  }
+}
