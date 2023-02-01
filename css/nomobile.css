@@ -18,7 +18,7 @@
   position: relative;
   top: 50%;
   left: 50%;
-  margin: -245px 0 0 -246px;
+  margin: -245px 0 0 -445px;
   width: 400px;
 }
 #nomobile h2 {
@@ -28,7 +28,7 @@
   font-size: 4rem;
   top: 50%;
   left: 50%;
-  margin: -293px 0 0 -6px;
+  margin: -472px 0 0 -6px;
   width: 140px;
   opacity: 0.75;
 }
