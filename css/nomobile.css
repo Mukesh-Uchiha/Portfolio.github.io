@@ -42,41 +42,31 @@
   #nomobile {
     display: block;
   }  
-  #preloader {
-    display: block;
-  }
+
 }
 @media (max-width: 480px) {
   #nomobile {
     display: block;
   }
-  #preloader {
-    display: block;
-  }
+
 }
 @media (max-width: 600px) {
   #nomobile {
     display: block;
   }  
-  #preloader {
-    display: block;
-  } 
+
 }
 @media (max-width: 801px) {
   #nomobile {
     display: block;
   }  
-  #preloader {
-    display: block;
-  }
+
 }
 @media (max-width: 1025px) {
   #nomobile {
     display: block;
   }  
-  #preloader {
-    display: block;
-  }
+
 }
 
 
@@ -99,9 +89,7 @@
   } 
 }
 @media (min-width: 801px) {
-  #nomobile {
-    display: block;
-  }  
+ 
   #preloader {
     display: block;
   }
