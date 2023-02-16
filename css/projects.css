@@ -1,5 +1,4 @@
 .wrapper {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   height: 100%;
@@ -13,6 +12,7 @@
   box-sizing: border-box;
 }
 .left {
+  margin:100px;
   display: flex;
   flex-direction: column;
   align-items: center;
