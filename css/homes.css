@@ -15,6 +15,12 @@
 
   transform: rotateZ(130deg);
 }
+ButtonsHome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -750px;
+}
 #Circle2 {
   background-color: #2f4f4f;
   position: absolute;
