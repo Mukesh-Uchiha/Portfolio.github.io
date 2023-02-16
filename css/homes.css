@@ -15,7 +15,7 @@
 
   transform: rotateZ(130deg);
 }
-ButtonsHome{
+.ButtonsHome{
     position: absolute;
     top: 50%;
     left: 50%;
